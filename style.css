@@ -12,6 +12,7 @@ body {
 
 .topContainer {
   margin-top: 20px;
+  width: 100%;
 }
 
 .directory {
@@ -41,16 +42,17 @@ body {
 
 .headerLinks {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 25px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-size: 12px;
   text-decoration: underline;
 }
 
 .headerLink {
-
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 
@@ -120,7 +122,7 @@ body {
 .mainContainerRight {
   width: fit-content;
   padding-left: 50px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .productSectionHeader {
@@ -129,7 +131,7 @@ body {
   height: 75px;
   font-size: 13px;
   line-height: 75px;
-  border: 0.2px solid turquoise;
+  /* border: 0.2px solid turquoise; */
 }
 
 .numberOfProducts {
@@ -138,7 +140,7 @@ body {
 
 .sortBySection {
   display: flex;
-  border: 0.2 px soolid purple
+  /* border: 0.2 px soolid purple; */
 }
 
 .sortBySectionCriterion {
@@ -161,7 +163,7 @@ body {
   height: 350px;
   width: 200px;
   margin-right: 25px;
-  border: 0.2px solid blueviolet;
+  /* border: 0.2px solid blueviolet; */
 }
 
 .productBox img {
@@ -172,8 +174,18 @@ body {
 .productDetails {
   height: 100px;
   width: 200px;
-  border: 0.2px solid goldenrod;
+  padding-top: 5px;
+  font-family: Cambria;
+  color:dimgray;
+  font-size: 15px;
+  /* border: 0.2px solid goldenrod; */
 }
+
+.productName, .price, .rating {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
 
 
 
